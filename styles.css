@@ -117,3 +117,13 @@
     text-transform: uppercase;
     color: #000000;
 }
+
+.articles__author {
+    font-family: 'libre Franklin', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
