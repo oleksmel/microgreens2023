@@ -89,7 +89,15 @@
     color: #000000;
 }
 
-.articles__block {
+.articles__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /*gap: 20px*/
+    justify-content: space-between;
+    row-gap: 75px;
+}
+
+.articles__card {
     width: 387px;
 
 }
@@ -126,4 +134,12 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #000000;
+}
+
+.line {
+    background-color: #E6E6E6;
+    height: 1px;
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
