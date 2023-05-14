@@ -289,3 +289,23 @@ body {
 .articles__author__big {
     font-family: 'libre Franklin', sans-serif;
 }
+
+.footer {
+    height: 250;
+    background-color: #141414;
+    padding: 90px 0;
+}
+
+.footer__logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer__copy {
+    font-family: 'libre Franklin', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #666666;
+}
