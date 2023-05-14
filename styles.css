@@ -12,6 +12,21 @@
     font-family: 'Tenor Sans',sans-serif;
 */
 
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -234,9 +249,43 @@
     margin-bottom: 90px;
 }
 
+/*articles big*/
+
+.featured__POSTS {
+    font-family: 'libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    margin-bottom: 30px;
+}
+
 .articles__wrapper__big {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 98px;
+    gap: 20px;
+}
+
+.articles__card__big {
+
+}
+
+.articles__img__big {
+
+}
+
+.articles__category__big {
+    font-family: 'libre Franklin', sans-serif; 
+}
+
+.articles_cat_text__big {
+    font-family: 'Tenor Sans',sans-serif;
+}
+
+.articles__author__big {
+    font-family: 'libre Franklin', sans-serif;
 }
