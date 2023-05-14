@@ -146,6 +146,17 @@
 
 /*Articles Small*/
 
+.Graphic__Design__text {
+    font-family: 'libre Franklin', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    margin-bottom: 30px;
+}
+
 .articles__wrapper__small {
     display: flex;
     flex-wrap: wrap;
