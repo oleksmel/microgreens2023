@@ -374,7 +374,7 @@ body {
 
 .input_email {
     padding: 18px 24px;
-    outline-style: none;
+    outline: none;
 }
 
 .email__field {
@@ -385,11 +385,9 @@ body {
     /*font-family: 'libre Franklin', sans-serif;*/
     padding: 20px 26px;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #fff;
     background-color: #000000;
     border: none;
     position: absolute;
-    top: 0;
-    right: -89px;
-    z-index: 999;
+    border-radius: 0px;
 }
