@@ -319,11 +319,24 @@ body {
     width: 1440px;
     left: 0px;
     top: 4188px;
+    position: absolute;
+    height: 617px;
+    left: 0%;
+    right: 0%;
+    top: 4188px;
     border-radius: 0px;
     height: 250;
     background-color: #141414;
     padding: 90px 0;
     justify-content: space-between;
+}
+
+.footer__wrap__menu {
+    width: 1200px;
+    height: 294px;
+    left: 0%;
+    right: 0%;
+    top: 143px;
 }
 
 .footer__info {
@@ -358,6 +371,7 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #666666;
+    margin-bottom: 20px;
 }
 
 .menu__footer li {
@@ -379,7 +393,7 @@ body {
 }
 
 .input_email {
-    padding: 18px 24px;
+    padding: 18px 14px 18px 80px;
     outline: none;
 }
 
@@ -408,11 +422,12 @@ body {
 
 .menu2__wrapper {
     display: flex;
-    justify-content: space-between;
     height: 144px;
     left: 0%;
     right: 25%;
     top: 150px;
+    padding: 0;
+    margin: 40px 0 0;
 }
 
 .footer_category_menu2 {
