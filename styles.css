@@ -315,9 +315,15 @@ body {
 /*footer*/
 
 .footer {
+    height: 617px;
+    width: 1440px;
+    left: 0px;
+    top: 4188px;
+    border-radius: 0px;
     height: 250;
     background-color: #141414;
     padding: 90px 0;
+    justify-content: space-between;
 }
 
 .footer__info {
@@ -407,4 +413,12 @@ body {
     left: 0%;
     right: 25%;
     top: 150px;
+}
+
+.footer_category_menu2 {
+    height: 129px;
+    width: 225px;
+    left: 0px;
+    top: 15px;
+    border-radius: 0px;
 }
