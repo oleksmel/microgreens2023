@@ -391,3 +391,20 @@ body {
     position: absolute;
     border-radius: 0px;
 }
+
+.footer__menu_2 {
+    height: 144px;
+    width: 900px;
+    left: 0px;
+    top: 150px;
+    border-radius: 0px;
+}
+
+.menu2__wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 144px;
+    left: 0%;
+    right: 25%;
+    top: 150px;
+}
